@@ -1979,7 +1979,7 @@ void shutDown() {
 
 #ifdef STARTUP_SOUND
   mp3.playMp3FolderTrack(265);
-  delay(500);
+  delay(2000);
 #endif
 
   digitalWrite(shutdownPin, HIGH);
